@@ -32,7 +32,7 @@ export interface DashboardCriticality {
   info: DashboardDataItem;
   low: DashboardDataItem;
   medium: DashboardDataItem;
-  unknown: DashboardDataItem;
+  // unknown: DashboardDataItem;
 }
 
 export interface VulnerabilitiesByAuthor extends DashboardCriticality {
